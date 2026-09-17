@@ -4,6 +4,7 @@ import {
   profile,
   stats,
   experience,
+  freelanceProjects,
   skills,
   certifications,
   education,
@@ -128,6 +129,45 @@ export default function Home() {
             </li>
           ))}
         </ol>
+      </Section>
+
+      {/* Freelance & Side Projects */}
+      <Section
+        id="projects"
+        eyebrow="Beyond the day job"
+        title="Freelance & Side Projects"
+      >
+        <div className="space-y-6">
+          {freelanceProjects.map((project) => (
+            <div
+              key={`${project.company}-${project.period}`}
+              className="rounded-2xl border border-slate-200 bg-white p-6"
+            >
+              <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+                <h3 className="text-lg font-semibold text-ink">
+                  {project.role}
+                </h3>
+                <span className="text-sm text-slate-500">
+                  {project.period}
+                </span>
+              </div>
+              <p className="text-sm font-medium text-accent">
+                {project.company} · {project.location}
+              </p>
+              <ul className="mt-3 space-y-2">
+                {project.points.map((point, i) => (
+                  <li
+                    key={i}
+                    className="flex gap-2 text-sm leading-relaxed text-slate-600"
+                  >
+                    <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-slate-400" />
+                    {point}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </Section>
 
       {/* Skills */}

@@ -18,7 +18,7 @@ export const stats = [
   { value: "5", label: "Industries covered" },
 ];
 
-export const experience = [
+export const freelanceProjects = [
   {
     role: "QA Engineer",
     company: "Rata.id (Freelance, Flexible Time/Project-Based)",
@@ -32,6 +32,9 @@ export const experience = [
       "Performed API testing by inspecting and scraping endpoints, collaborating with Dev to build test data and execute tests via Bruno.",
     ],
   },
+];
+
+export const experience = [
   {
     role: "QA Analyst",
     company: "NTUC Learning HUB (Contract)",
