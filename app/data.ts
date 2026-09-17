@@ -5,6 +5,7 @@ export const profile = {
   email: "mhdnurfaizzy@gmail.com",
   phone: "+62 895 3712 99128",
   linkedin: "https://linkedin.com/in/mhdnurfaizzy",
+  medium: "https://medium.com/@mhdnurfaizi",
   summary:
     "QA Engineer with 4 years across Fintech, E-commerce, Government, and EdTech, executing 1,000+ test cases and detecting 300+ defects across manual and automation testing (Selenium, Playwright, API testing). Experienced coordinating UAT and regulatory sign-off with cross-border teams in China, Singapore, and Indonesia.",
 };

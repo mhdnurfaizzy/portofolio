@@ -50,6 +50,14 @@ export default function Home() {
           >
             LinkedIn
           </a>
+          <a
+            href={profile.medium}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-medium text-ink transition hover:border-accent hover:text-accent"
+          >
+            Medium
+          </a>
         </div>
 
         <dl className="mt-16 grid grid-cols-2 gap-6 border-t border-slate-200 pt-10 sm:grid-cols-4">
@@ -192,7 +200,8 @@ export default function Home() {
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-slate-300 md:text-base">
             Open to QA Engineer / QA Analyst roles and testing collaborations.
-            Reach out by email or connect on LinkedIn.
+            Reach out by email, connect on LinkedIn, or read my writing on
+            Medium.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
             <a
@@ -208,6 +217,14 @@ export default function Home() {
               className="rounded-full border border-slate-600 px-5 py-2.5 text-sm font-medium text-white transition hover:border-accent hover:text-accent"
             >
               LinkedIn
+            </a>
+            <a
+              href={profile.medium}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-slate-600 px-5 py-2.5 text-sm font-medium text-white transition hover:border-accent hover:text-accent"
+            >
+              Medium
             </a>
           </div>
           <p className="mt-6 text-xs text-slate-400">
