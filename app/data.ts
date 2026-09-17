@@ -39,7 +39,7 @@ export const experience = [
     role: "QA Analyst",
     company: "NTUC Learning HUB (Contract)",
     period: "Jan 2026 - Sep 2026",
-    location: "Batam",
+    location: "Batam · On-site",
     points: [
       "Analyzed 30+ Functional Specification Documents (FSD) across the AWB Admin and LXP Learner platforms, covering Registration, Course Management, Enrollment, Installment, Funding, Subscription, Trainer Management, and Company Management.",
       "Executed 200+ end-to-end business flow test cases (15+ steps per case on average) across five UAT phases (UAT2, Proxy, MOT1/MOT2, RTM) using Jira and Excel, capturing 20+ evidence points per case.",
@@ -52,7 +52,7 @@ export const experience = [
     role: "QA Engineer",
     company: "Akulaku Finance Indonesia",
     period: "Jul 2025 - Dec 2025",
-    location: "Jakarta",
+    location: "Jakarta · On-site",
     points: [
       "Analyzed Business Requirement Documents (BRD) for IT Support Ticketing Helpdesk, Employee Workflow (OA System), and multiple internal platforms.",
       "Developed and maintained 500+ comprehensive test cases in MeterSphere as the test case management system.",
@@ -66,7 +66,7 @@ export const experience = [
     role: "QA Product",
     company: "Akulaku Finance Indonesia",
     period: "Jul 2024 - Jul 2025",
-    location: "Jakarta",
+    location: "Jakarta · On-site",
     points: [
       "Analyzed BRDs from the Head Quarter team in Shenzhen, China to support new features across BNPL, SME Loan, Channeling, and Internal Tools.",
       "Reviewed QA testing results from the head quarter team to ensure alignment with local business requirements and regulatory compliance.",
@@ -79,7 +79,7 @@ export const experience = [
     role: "Quality Assurance Tester",
     company: "LG CNS (Contract)",
     period: "Jan 2024 - Apr 2024",
-    location: "Jakarta",
+    location: "Jakarta · On-site",
     points: [
       "Reviewed the DJP Coretax Tax Project BRD to understand testing needs within the DQM team.",
       "Performed testing in QA1 and QA environments to validate the product's adherence to quality standards.",
@@ -92,7 +92,7 @@ export const experience = [
     role: "Quality Assurance Tester",
     company: "Tokopedia (Contract)",
     period: "Sep 2022 - Dec 2023",
-    location: "Jakarta",
+    location: "Jakarta · On-site",
     points: [
       "Analyzed PRDs for Tokopedia Plus, Promo Internal Tools, Merchant Voucher Discount, Tokonow Schedule Delivery, and more.",
       "Developed comprehensive test plans and 200+ test cases aligned with PRDs and project objectives.",
