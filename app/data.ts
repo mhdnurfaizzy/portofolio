@@ -20,6 +20,19 @@ export const stats = [
 
 export const experience = [
   {
+    role: "QA Engineer",
+    company: "Rata.id (Freelance, Flexible Time/Project-Based)",
+    period: "Jan 2026 - Present",
+    location: "Remote",
+    points: [
+      "Collaborated with Product and Dev teams in PRD grooming and analysis to define system enhancements for the Aligner product.",
+      "Developed and executed 200+ test cases, maintaining 98% test coverage/readiness.",
+      "Logged and tracked bugs in Lark, coordinating with developers on root cause and retesting post-fix.",
+      "Conducted UAT sessions with end users, supported by the Product team.",
+      "Performed API testing by inspecting and scraping endpoints, collaborating with Dev to build test data and execute tests via Bruno.",
+    ],
+  },
+  {
     role: "QA Analyst",
     company: "NTUC Learning HUB (Contract)",
     period: "Jan 2026 - Sep 2026",
