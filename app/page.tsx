@@ -58,6 +58,14 @@ export default function Home() {
           >
             Medium
           </a>
+          <a
+            href={profile.github}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-medium text-ink transition hover:border-accent hover:text-accent"
+          >
+            GitHub
+          </a>
         </div>
 
         <dl className="mt-16 grid grid-cols-2 gap-6 border-t border-slate-200 pt-10 sm:grid-cols-4">
@@ -225,6 +233,14 @@ export default function Home() {
               className="rounded-full border border-slate-600 px-5 py-2.5 text-sm font-medium text-white transition hover:border-accent hover:text-accent"
             >
               Medium
+            </a>
+            <a
+              href={profile.github}
+              target="_blank"
+              rel="noreferrer"
+              className="rounded-full border border-slate-600 px-5 py-2.5 text-sm font-medium text-white transition hover:border-accent hover:text-accent"
+            >
+              GitHub
             </a>
           </div>
           <p className="mt-6 text-xs text-slate-400">
