@@ -207,8 +207,9 @@ export default function Home() {
             Let&apos;s work together
           </h2>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-slate-300 md:text-base">
-            Open to QA Engineer / QA Analyst roles and testing collaborations.
-            Reach out by email, connect on LinkedIn, or read my writing on
+            Open to QA Engineer / QA Analyst roles, AI Testing, and testing
+            collaborations. Reach out by email, connect on LinkedIn, or read
+            my writing on
             Medium.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
