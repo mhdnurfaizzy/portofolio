@@ -2,6 +2,7 @@ import Nav from "./components/Nav";
 import Section from "./components/Section";
 import {
   profile,
+  currentActivity,
   stats,
   experience,
   freelanceProjects,
@@ -98,6 +99,16 @@ export default function Home() {
           <div>
             <p className="text-sm font-semibold text-ink">Location</p>
             <p className="mt-1 text-sm text-slate-600">{profile.location}</p>
+          </div>
+          <div className="sm:col-span-2">
+            <p className="text-sm font-semibold text-ink">Currently</p>
+            <p className="mt-1 text-sm text-slate-600">
+              {currentActivity.activity} — {currentActivity.org},{" "}
+              {currentActivity.location}
+            </p>
+            <p className="mt-1 text-sm text-slate-500">
+              {currentActivity.period}
+            </p>
           </div>
         </div>
       </Section>

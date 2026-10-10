@@ -11,6 +11,13 @@ export const profile = {
     "QA Engineer with 4 years across Fintech, E-commerce, Government, and EdTech, executing 1,000+ test cases and detecting 300+ defects across manual and automation testing (Selenium, Playwright, API testing). Experienced coordinating UAT and regulatory sign-off with cross-border teams in China, Singapore, and Indonesia.",
 };
 
+export const currentActivity = {
+  activity: "English Learning Program",
+  org: "Titik Nol English Course",
+  location: "Pare, Kediri",
+  period: "Oct 2026 - Present",
+};
+
 export const stats = [
   { value: "4+", label: "Years in QA" },
   { value: "1,000+", label: "Test cases executed" },
