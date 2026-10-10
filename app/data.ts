@@ -31,7 +31,7 @@ export const freelanceProjects = [
   {
     role: "QA Engineer",
     company: "Rata.id (Freelance, Flexible Time/Project-Based)",
-    period: "Jan 2026 - Present",
+    period: "Jan 2026 - Oct 2026",
     location: "Remote",
     points: [
       "Collaborated with Product and Dev teams in PRD grooming and analysis to define system enhancements for the Aligner product.",
