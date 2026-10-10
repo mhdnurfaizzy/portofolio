@@ -27,7 +27,7 @@ export default function Home() {
           {profile.title}
         </p>
         <p className="mt-6 max-w-2xl text-base leading-relaxed text-slate-600 md:text-lg">
-          {profile.summary}
+          {profile.tagline}
         </p>
 
         <div className="mt-8 flex flex-wrap gap-3">
