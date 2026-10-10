@@ -1,7 +1,7 @@
 export const profile = {
   name: "Muhammad Nurfaizi",
   title: "QA Engineer",
-  location: "Batam, Indonesia",
+  location: "Pare, Kediri, Indonesia",
   email: "mhdnurfaizzy@gmail.com",
   phone: "+62 895 3712 99128",
   linkedin: "https://linkedin.com/in/mhdnurfaizzy",
