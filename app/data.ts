@@ -8,9 +8,9 @@ export const profile = {
   medium: "https://medium.com/@mhdnurfaizi",
   github: "https://github.com/mhdnurfaizzy",
   tagline:
-    "I help teams ship reliable products through thorough manual testing, test automation, and UAT — across Fintech, E-commerce, Government, and EdTech.",
+    "I help teams ship reliable products through thorough manual testing, test automation, and UAT — across Fintech, E-commerce, Government, EdTech, and HealthTech.",
   summary:
-    "QA Engineer with 4 years of experience across Fintech, E-commerce, Government, and EdTech. I have executed 1,000+ test cases and detected 300+ defects through manual and automation testing (Selenium, Playwright, API testing), and coordinated UAT and regulatory sign-off with cross-border teams in China, Singapore, and Indonesia.",
+    "QA Engineer with 4 years of experience across Fintech, E-commerce, Government, EdTech, and HealthTech. I have executed 1,000+ test cases and detected 300+ defects through manual and automation testing (Selenium, Playwright, API testing), and coordinated UAT and regulatory sign-off with cross-border teams in China, Singapore, and Indonesia.",
 };
 
 export const currentActivity = {
