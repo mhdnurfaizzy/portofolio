@@ -10,7 +10,7 @@ export default function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section id={id} className="mx-auto max-w-5xl px-6 py-16 md:py-20">
+    <section id={id} className="mx-auto max-w-5xl px-6 py-10 md:py-12">
       <p className="text-xs font-semibold uppercase tracking-widest text-accent">
         {eyebrow}
       </p>

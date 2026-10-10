@@ -18,7 +18,7 @@ export default function Home() {
       <Nav />
 
       {/* Hero */}
-      <section className="mx-auto max-w-5xl px-6 pb-16 pt-20 md:pb-24 md:pt-28">
+      <section className="mx-auto max-w-5xl px-6 pb-10 pt-20 md:pb-12 md:pt-28">
         <p className="text-sm font-medium text-accent">Hi, I&apos;m</p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight text-ink md:text-6xl">
           {profile.name}
@@ -251,7 +251,7 @@ export default function Home() {
       {/* Contact */}
       <section
         id="contact"
-        className="mx-auto max-w-5xl px-6 py-16 md:py-20"
+        className="mx-auto max-w-5xl px-6 py-10 md:py-12"
       >
         <div className="rounded-3xl bg-ink px-8 py-14 text-center md:px-16">
           <h2 className="text-2xl font-semibold text-white md:text-3xl">
