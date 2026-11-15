@@ -221,6 +221,16 @@ export default function Home() {
               <p className="mt-1 text-xs text-slate-500">
                 {cert.org} · {cert.date}
               </p>
+              {cert.url && (
+                <a
+                  href={cert.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-2 inline-block text-xs font-medium text-accent hover:underline"
+                >
+                  View certificate ↗
+                </a>
+              )}
             </li>
           ))}
         </ul>

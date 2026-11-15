@@ -145,7 +145,13 @@ export const skills = {
   Languages: ["English (Intermediate)", "Bahasa Indonesia (Native)"],
 };
 
-export const certifications = [
+export const certifications: { name: string; org: string; date: string; url?: string }[] = [
+  {
+    name: "English Course – Intermediate Level",
+    org: "TitikNol, Pare, Kediri",
+    date: "October – November 2026",
+    url: "https://drive.google.com/open?id=141ftmPqopcYXW0BS3VTqTsy7YRvTgUFQ",
+  },
   { name: "Learn AI Tools & Build AI Agents for Testing & QA Automation", org: "Udemy", date: "September 2026" },
   { name: "Core Java for Automation Testers", org: "Udemy", date: "May 2024" },
   { name: "Selenium WebDriver with Java", org: "Udemy", date: "March 2024" },
