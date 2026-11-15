@@ -157,6 +157,12 @@ export const certifications: { name: string; org: string; date: string; url?: st
   { name: "Selenium WebDriver with Java", org: "Udemy", date: "March 2024" },
   { name: "Rest API Testing (Automation) from Scratch - Rest Assured Java", org: "Udemy", date: "2024" },
   { name: "Web UI Testing With Katalon: Low Code Journey", org: "Katalon Academy", date: "November 2023" },
+  {
+    name: "MasterClass Software Testing with Jira & Agile - Be a QA Lead",
+    org: "Udemy",
+    date: "September 2022",
+    url: "https://drive.google.com/file/d/1zaIRo_5NF9LyeSy6dg3CR6B5nq0xeC6z/view",
+  },
 ];
 
 export const education = {
